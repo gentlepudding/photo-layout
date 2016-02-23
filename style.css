@@ -1,29 +1,191 @@
+@import "/styles/top.css";
+
 body {
-    background-color: #fff;
     margin: 0;
     padding: 0;
-    font-family: "Georgia", serif;
-    font-style: italic;
-    font-size: 16px;
-    color: #2E3884;
+    font: italic 18px Georgia, serif;
 }
 
-.wrapper {
-    max-width: 1200px;
-    margin: auto;
-    background-color: ghostwhite;
+.album-form {
+    width: 300px;
+    height: 220px;
+    display: inline-block;
+    background: #000;
+    margin: 60px 10px;
 }
 
-.top {
-    background-image: url(top.xcf);
+.album-form:first-child {
+    margin-left: 180px;
+}
+
+.album {
+    margin-top: 20px;
+    color: #44593A;
+    font-size: 14px;
+    font-style: normal;
+    text-align: center;
+}
+
+.album:after {
+    border-bottom: solid 1px #44593A;
+    content: '';
+    display: block;
+    width: 15px;
+    margin: 10px auto 0px;
+}
+
+.album-name {
+    color: #44593A;
+    font-size: 20px;
+    text-align: center;
+    font-weight: 600;
+    margin-top: 10px;
+}
+
+.content-article {
+    width: 100%;
+    height: 1090px;
+    background: url(Article.JPG) no-repeat center 300px;
+    margin-bottom: 20px;
+}
+
+.article {
     width: 1200px;
-    height: 500px;
+    height: 400px;
+    margin: 50px 70px 20px;
+    background: #44593A;
+    color: #fff;
 }
 
-.logo {
-    width: 50px;
-    height: 50px;
-    margin: 20px 50px;
+.article-head {
+    font-size: 40px;
+    text-transform: uppercase;
+    font-style: normal;
+    font-weight: 600;
+    letter-spacing: 10px;
+    padding: 100px 0px 0px 100px;
 }
 
+.article-content {
+    font-style: normal;
+    font-size: 14px;
+    padding: 0px 250px 0px 250px;
+    letter-spacing: 2px;
+    line-height: 25px;
+    text-align: justify;
+}
 
+.contact {
+    display: table;
+    margin: 100px 200px;
+}
+
+.contact-field {
+    width: 500px;
+    height:200px;
+    display: table-cell;
+}
+
+.contact-head {
+    color: #44593A;
+    text-transform: uppercase;
+    font-style: normal;
+    letter-spacing: 10px;
+    font-size: 40px;
+    font-weight: 600;
+}
+
+.contact-name {
+    color: #44593A;
+    margin-top: 70px;
+    font-weight: 400;
+    font-size: 20px;
+}
+
+.contact-name:after {
+    border-bottom: solid 1px #44593A;
+    content: '';
+    display: block;
+    width: 15px;
+    margin: 15px 0px;
+}
+
+.contact-network {
+    color: #44593A;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 600;
+    margin: 10px 0px;
+    letter-spacing: 1px;
+    text-decoration: none;
+    vertical-align: middle;
+    display: block;
+    margin: 15px 0px;
+}
+
+.network-icon {
+    margin-right: 15px;
+    vertical-align: middle;
+}
+
+.feedback-field {
+    /* display: table-cell; */
+}
+
+.feedback {
+    display: block;
+    margin: 10px;
+}
+.name, .mail, .message, .text {
+    width: 450px;
+    height: 25px;
+    border: solid 1px #44593A;
+}
+
+.text {
+    width: 448px;
+    height: 100px;
+    resize: none;
+}
+
+.name::-webkit-input-placeholder,
+.mail::-webkit-input-placeholder,
+.message::-webkit-input-placeholder,
+.text::-webkit-input-placeholder {
+    color: #44593A;
+    font-family: "Georgia", serif;
+    padding-left: 5px;
+}
+
+.submit-button {
+    background: none;
+    border: none;
+    color: #44593A;
+    font-family: "Georgia", serif;
+    font-weight: bold;
+    font-size: 16px;
+    padding-left: 410px;
+    cursor: pointer;
+}
+
+.author-field {
+    width: 100%;
+    height: 100px;
+    background: #44593A;
+}
+
+.author, .author-right {
+    display: inline-block;
+    text-decoration: none;
+    color: #fff;
+    padding: 20px 0px 0px 100px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    letter-spacing: 2px;
+}
+
+.author-social {
+    display: inline-block;
+    padding-left: 600px;
+}
