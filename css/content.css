@@ -17,6 +17,10 @@
     text-align: center;
 }
 
+.album-photo {
+    background: url(album_1.jpg);
+}
+
 .album:after {
     border-bottom: solid 1px #44593A;
     content: '';
