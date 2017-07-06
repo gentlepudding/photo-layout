@@ -1,0 +1,93 @@
+.contact {
+    display: table;
+    width: 900px;
+    margin: 100px auto;
+}
+
+.contact-field {
+    width: 500px;
+    height:200px;
+    display: table-cell;
+}
+
+.contact-head {
+    color: #44593A;
+    text-transform: uppercase;
+    font-style: normal;
+    letter-spacing: 10px;
+    font-size: 40px;
+    font-weight: 600;
+}
+
+.contact-name {
+    color: #44593A;
+    margin-top: 70px;
+    font-weight: 400;
+    font-size: 20px;
+}
+
+.contact-name:after {
+    border-bottom: solid 1px #44593A;
+    content: '';
+    display: block;
+    width: 15px;
+    margin: 15px 0px;
+}
+
+.contact-network {
+    color: #44593A;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 600;
+    margin: 10px 0px;
+    letter-spacing: 1px;
+    text-decoration: none;
+    vertical-align: middle;
+    display: block;
+    margin: 15px 0px;
+}
+
+.network-icon {
+    margin-right: 15px;
+    vertical-align: middle;
+}
+
+.feedback-field {
+    /* display: table-cell; */
+}
+
+.feedback {
+    display: block;
+    margin: 10px;
+}
+.name, .mail, .message, .text {
+    width: 450px;
+    height: 25px;
+    border: solid 1px #44593A;
+}
+
+.text {
+    width: 448px;
+    height: 100px;
+    resize: none;
+}
+
+.name::-webkit-input-placeholder,
+.mail::-webkit-input-placeholder,
+.message::-webkit-input-placeholder,
+.text::-webkit-input-placeholder {
+    color: #44593A;
+    font-family: "Georgia", serif;
+    padding-left: 5px;
+}
+
+.submit-button {
+    background: none;
+    border: none;
+    color: #44593A;
+    font-family: "Georgia", serif;
+    font-weight: bold;
+    font-size: 16px;
+    padding-left: 410px;
+    cursor: pointer;
+}
