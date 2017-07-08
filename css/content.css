@@ -17,10 +17,6 @@
     text-align: center;
 }
 
-.album-photo {
-    background: url(album_1.jpg);
-}
-
 .album:after {
     border-bottom: solid 1px #44593A;
     content: '';
@@ -40,7 +36,7 @@
 .content-article {
     width: 100%;
     height: 1090px;
-    background: url(../img/article.jpg) no-repeat center 300px;
+    background: url(/photo-layout/img/article.jpg) no-repeat center 300px;
     background-size: 100%;
     margin-bottom: 20px;
 }
